@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "title": "Hello World",
+    "difficulty": "EASY",
+    "code": "Console.WriteLine(\"Hello, World!\");"
+  },
+  {
+    "id": "2",
+    "title": "Variables",
+    "difficulty": "EASY",
+    "code": "int number = 10;\nstring name = \"C#\";"
+  },
+  {
+    "id": "3",
+    "title": "Conditionals",
+    "difficulty": "EASY",
+    "code": "if (x > 0) { Console.WriteLine(\"Positive\"); }"
+  },
+  {
+    "id": "4",
+    "title": "Loops",
+    "difficulty": "EASY",
+    "code": "for (int i = 0; i < 5; i++) { Console.WriteLine(i); }"
+  },
+  {
+    "id": "5",
+    "title": "Lists",
+    "difficulty": "MEDIUM",
+    "code": "List<string> items = new List<string> { \"A\", \"B\", \"C\" };"
+  },
+  {
+    "id": "6",
+    "title": "TryCatch",
+    "difficulty": "MEDIUM",
+    "code": "try { DoAction(); } catch (Exception ex) { Console.WriteLine(ex.Message); }"
+  },
+  {
+    "id": "7",
+    "title": "LINQ",
+    "difficulty": "MEDIUM",
+    "code": "var evenNumbers = nums.Where(n => n % 2 == 0).ToList();"
+  },
+  {
+    "id": "8",
+    "title": "AsyncTask",
+    "difficulty": "MEDIUM",
+    "code": "public async Task<string> GetDataAsync() { return await client.GetStringAsync(url); }"
+  },
+  {
+    "id": "9",
+    "title": "Delegates",
+    "difficulty": "HARD",
+    "code": "public delegate void ActionHandler(string msg);\nActionHandler handler = (m) => Console.WriteLine(m);"
+  },
+  {
+    "id": "10",
+    "title": "Reflection",
+    "difficulty": "HARD",
+    "code": "var type = typeof(MyClass);\nvar method = type.GetMethod(\"Execute\");\nmethod.Invoke(instance, null);"
+  },
+  {
+    "id": "11",
+    "title": "DependencyInjection",
+    "difficulty": "HARD",
+    "code": "public class MyController : ControllerBase\n{\n    private readonly IService _service;\n    public MyController(IService service) => _service = service;\n}"
+  },
+  {
+    "id": "12",
+    "title": "ExpressionTree",
+    "difficulty": "HARD",
+    "code": "Expression<Func<User, bool>> isAdult = u => u.Age >= 18;"
+  }
+]
